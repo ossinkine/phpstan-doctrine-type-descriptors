@@ -5,4 +5,5 @@ composer require doctrine/orm doctrine/doctrine-bundle
 composer require --dev phpstan/phpstan phpstan/phpstan-doctrine
 composer require --dev symfony/maker-bundle
 bin/console make:entity Foo
+vendor/bin/phpstan analyze src/Entity/Foo.php --level max
 ```
