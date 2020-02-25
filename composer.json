@@ -15,7 +15,8 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12.11",
-        "phpstan/phpstan-doctrine": "^0.12.9"
+        "phpstan/phpstan-doctrine": "^0.12.9",
+        "symfony/maker-bundle": "^1.14"
     },
     "config": {
         "preferred-install": {
